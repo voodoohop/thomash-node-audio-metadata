@@ -1,0 +1,27 @@
+{
+  "name": "thomash-node-audio-metadata",
+  "version": "1.0.0",
+  "description": "extract audio metadata from wav, mp3, aiff and many other formats. uses a javascript cross-compiled taglib.",
+  "main": "taglib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voodoohop/thomash-node-audio-metadata.git"
+  },
+  "keywords": [
+    "taglib",
+    "audio",
+    "metadata"
+  ],
+  "author": "Thomas Haferlach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voodoohop/thomash-node-audio-metadata/issues"
+  },
+  "homepage": "https://github.com/voodoohop/thomash-node-audio-metadata#readme",
+  "dependencies": {
+    "file-api": "^0.10.4"
+  }
+}
