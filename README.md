@@ -1,6 +1,6 @@
 # thomash-node-audio-metadata
 
-extract audio metadata from wav, mp3, aiff and many other formats. uses a javascript cross-compiled taglib.
+extract audio metadata from wav, mp3, aiff and many other formats. uses a javascript cross-compiled taglib. http://taglib.github.io/
 
 ### install
     npm install thomash-node-audio-metadata
