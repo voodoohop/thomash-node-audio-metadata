@@ -1367,7 +1367,7 @@
                 __GLOBAL__sub_I_iostream_cpp()
             })
         });
-        memoryInitializer = "taglib.js.mem";
+        memoryInitializer = __dirname+"/taglib.js.mem";
         var tempDoublePtr = Runtime.alignMemory(allocate(12, "i8", ALLOC_STATIC), 8);
         assert(tempDoublePtr % 8 == 0);
 
@@ -2038,6 +2038,7 @@
             var result;
             if (!data.content) {
                 // console.log("opening ", data.file.name, "for reading range:", position, len);
+                var fs = require("fs");
                 var fileHandle = fs.openSync(data.file.path, "r");
                 var processedPos;
                 if (position < 0) {
@@ -84531,6 +84532,7 @@
 
         function addTaglibFile(file, content) {
             var ptr = _malloc(1);
+            var fs=require("fs");
             files[ptr] = {
                 file: file,
                 content: content,
