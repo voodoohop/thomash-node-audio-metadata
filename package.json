@@ -1,6 +1,6 @@
 {
   "name": "thomash-node-audio-metadata",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "extract audio metadata from wav, mp3, aiff and many other formats. uses a javascript cross-compiled taglib.",
   "main": "taglib.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/voodoohop/thomash-node-audio-metadata#readme",
   "dependencies": {
-    "file-api": "https://github.com/voodoohop/file-api"
+    "file-api": "voodoohop/file-api"
   }
 }
