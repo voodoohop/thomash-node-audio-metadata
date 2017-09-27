@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/voodoohop/thomash-node-audio-metadata#readme",
   "dependencies": {
-    "file-api": "^0.10.4"
+    "file-api": "https://github.com/voodoohop/file-api"
   }
 }
