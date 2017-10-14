@@ -2047,7 +2047,7 @@
                 var buf = new Buffer(len);
                 var bytesRead = fs.readSync(fileHandle, buf, 0, len, processedPos);
                 result = buf;
-                fs.close(fileHandle)
+                fs.closeSync(fileHandle)
             } else {
                 result = data.content.slice(position, position + len)
             }
